@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 100, 52);
+    background-image: url(../Imagenes/fondo.jpg);
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+
+.destacado {
+    color: orange;
+    text-align: center;
+    background-color: #000066;
+}
+
+.encabezado {
+    font-size: 500%;
+}
+
+.subtitulo {
+    color: #000066;
+    text-align: center;
+    background-color: orange;
+}
+
+.descripcion_1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.imagen_1 {
+    text-align: center;
+}
+
+.parrafo_1 {
+    font-size: larger;
+    text-align: justify;
+}
+
+.items {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.texto_azul_centrado {
+    color: #000066; 
+    text-align: center;
+}
