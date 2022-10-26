@@ -45,3 +45,23 @@ body {
     color: #000066; 
     text-align: center;
 }
+
+footer {
+    background-color: orange;
+    text-align: center;
+}
+
+.icono_whatsapp { 
+    width: 60px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+
+}
+
+.icono_instagram {
+    width: 30px;
+    bottom: 50px;
+    left: 30px;
+
+}
