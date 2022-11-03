@@ -5,6 +5,37 @@ body {
     font-family: Roboto;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000066;
+}
+
+.iconos_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.icono_logo {
+    width: 200px;
+    margin: 40px;
+}
+
+.icono_redes_header {
+    width: 40px;
+    margin: 20px;
+}
+
+.mapa_ubicacion {
+    width: 20px;
+    margin: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
 .destacado {
     color: orange;
     text-align: center;
@@ -42,7 +73,7 @@ body {
 }
 
 .texto_azul_centrado {
-    color: #000066; 
+    color: #000066;
     text-align: center;
 }
 
@@ -51,7 +82,7 @@ footer {
     text-align: center;
 }
 
-.icono_whatsapp { 
+.icono_whatsapp {
     width: 60px;
     position: fixed;
     bottom: 50px;
@@ -59,9 +90,24 @@ footer {
 
 }
 
-.icono_instagram {
-    width: 30px;
-    bottom: 50px;
-    left: 30px;
+.icono_redes_footer {
+    width: 50px;
+    margin: 15px;
+}
 
+.iconos_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dev_info {
+    display: flex;
+    align-items: center;
 }
