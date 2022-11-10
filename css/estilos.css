@@ -4,11 +4,16 @@ body {
     background-attachment: fixed;
     font-family: Roboto;
 }
+@font-face {
+    font-family: "calibri";
+    src: url("../Fuentes/calibri.ttf")format("truetype");
+}
 
 header {
     display: flex;
     justify-content: space-around;
     background-color: #000066;
+    flex-wrap: wrap
 }
 
 .iconos_header {
@@ -30,10 +35,10 @@ header {
 }
 
 .mapa_ubicacion {
-    width: 20px;
-    margin: 10px;
-    margin-right: 40px;
-    margin-left: 40px;
+    width: 20vw;
+    margin: 2vh;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .destacado {
@@ -80,6 +85,7 @@ header {
 footer {
     background-color: orange;
     text-align: center;
+    flex-wrap: wrap
 }
 
 .icono_whatsapp {
@@ -91,8 +97,9 @@ footer {
 }
 
 .icono_redes_footer {
-    width: 50px;
-    margin: 15px;
+    width: 40px;
+    margin: 10px;
+    flex-wrap: wrap
 }
 
 .iconos_footer {
@@ -110,4 +117,29 @@ footer {
 .dev_info {
     display: flex;
     align-items: center;
+    width: 300px;
+}
+
+.caja {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 115, 0, 0.692);
+}
+
+.fotito {
+    width: 100%;
+    height: 100%;
+}
+
+.tituloconta {
+    font-family: "calibri";
+}
+
+.lorem {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link_nav {
+    display: flex;
+    justify-content: space-around;
 }
